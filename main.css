@@ -1,0 +1,195 @@
+/***** BASE STYLES *****/
+
+body {
+	font-family: 'Playfair Display', serif;
+	font-family: 'Lato', sans-serif;
+}
+
+#about, #services, #portfolio, #contact{
+	height: 768px;
+}
+
+h1, h2, h3 {
+	font-family: 'Playfair Display', serif;
+	text-transform: uppercase;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	font-size: 14pt;
+	font-weight: 300;
+	line-height: 30px;
+}
+
+a:hover { 
+    color: #fbcabb;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/***** GRID *****/
+.full-width{
+	width: 1366px;
+	margin: 0 auto;
+}
+
+.half-width{
+	width: 683px;
+	float: left;
+}
+
+.third-width{
+	width: 455px;
+	float: left;
+}
+
+/****** HEADER ******/
+
+header img {
+	position: center;
+	padding: 60px 0px 0px 245px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 70px 105px;
+}
+
+nav ul li a {
+	font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 24px;
+    color: #000000;
+}
+
+/***** ABOUT *****/
+
+#about h2 {
+	text-transform: uppercase;
+	padding: 120px 0 0 140px;
+	font-weight: 300;
+}
+
+#about p {
+	width: 505px;
+	padding: 0 40px 0 140px;
+}
+
+#about img {
+	width: 551px;
+	padding-top: 120px;
+}
+
+/***** SERVICES *****/
+
+#services p {
+	width: 300px;
+}
+
+#html-image{
+	padding: 95px 0 0 155px;
+}
+
+#html-text{
+	padding-left: 135px;
+}
+
+#css-image{
+	padding: 95px 0 0 100px;
+}
+
+#css-text{
+	padding-left: 80px;
+}
+
+#psd-image{
+	padding: 95px 0 0 35px;
+}
+
+#psd-text{
+	padding-left: 30px;
+}
+
+/***** PORTFOLIO *****/
+
+#portfolio-image{
+	float: none;
+	clear: both;
+	height: 215px;
+	padding: 90px 0 80px 490px;
+}
+
+#portfolio p {
+	width: 530px;
+}
+
+#jubilee-section{
+	clear: both;
+	padding-left: 90px;
+}
+
+#rogue-section{
+	width: 542px;
+}
+
+#rogue-image{
+	border: 1px solid lightgray;
+}
+
+
+/***** CONTACT *****/
+
+#contact-left{
+	padding: 170px 0 0 100px;
+	clear: both;
+}
+
+#contact-center h1 {
+	font-size: 30px;
+	font-weight: 300;
+	padding: 355px 0 0 95px;
+	text-transform: lowercase;
+}
+
+#contact a {
+	color: black;
+	font-weight: 300;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+#contact-envelope{
+	padding: 0 10px 0 65px;
+}
+
+#contact-right{
+	padding: 170px 0 0 70px;
+}
+
+/***** FOOTER *****/
+
+footer ul li {
+    display: inline-block;
+ 
+}
+
+footer p {
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+footer .icons{
+	padding-right: 20px;
+}
+
+#copyright {
+	padding: 0 100px 0 300px;
+}
+
+#icons-credit{
+	padding-left: 100px;
+}
