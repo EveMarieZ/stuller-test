@@ -1,5 +1,56 @@
 /* Custom Styles */
 
-*.nav a {
-	color: #000;
+@font-face {
+	font-family: Archer Semibold;
+	src: url(Archer Semibold.otf);
+}
+
+@font-face {
+	font-family: Franchise Free;
+	src: url(franchise-bold.ttf);
+}
+
+@font-face {
+	font-family: Intro;
+	src: url(intro.otf);
+}
+
+/* Navigation */
+
+.navbar a {
+	color: #646566;
+	font-family: 'Intro', sans serif;
+	font-size: 14px;
+}
+
+/* Main */
+
+.row img {
+	height: auto;
+	width: 100%;
+}
+
+/* Carousel */
+
+.carousel-indicators li {
+	display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/* Media Queries */
+
+@media (min-width: 992px) {
+
+.navbar-expand-lg, .navbar-collapse {
+	justify-content: center !important;
+}
+
 }
