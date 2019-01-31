@@ -15,6 +15,9 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/custom.css" rel="stylesheet">
 
+
+
+
 </head>
 
 <body>
@@ -23,36 +26,43 @@
   <![endif]-->
 
   <header>
-    <ul>
-      <li>
-        <img src="img/facebook.svg" class="col-md-1">
-      </li>
-      <li>
-        <img src="img/twitter.svg" class="col-md-1">
-      </li>
-      <li>
-        <img src="img/youtube.svg" class="col-md-1">
-      </li>
-      <li>
-        <img src="img/rss.svg" class="col-md-1">
-      </li> 
-    </ul>
-    <img src="img/logo-dark.png" class="col-md-3 justify-content-center">
+    <!--<div class="header-background">
+      <img src="img/header-pattern.png">
+    </div>-->
+    <div class="container">
+       <ul>
+          <li>
+            <a href="http://facebook.com"><img src="img/facebook.svg" class="col-md-1"></a>
+          </li>
+          <li>
+            <a href="http://twitter.com"><img src="img/twitter.svg" class="col-md-1"></a>
+          </li>
+          <li>
+            <a href="http://youtube.com"><img src="img/youtube.svg" class="col-md-1"></a>
+          </li>
+          <li>
+            <a href="http://stuller.com"><img src="img/rss.svg" class="col-md-1">
+          </li> 
+        </ul>
+      <div class="row">
+        <img src="img/logo-dark.png" class="col-md-3">
+      </div>
+    </div>
   </header>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-around">
+<nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between">
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="#">Earrings</a>
-      <a class="nav-item nav-link" href="#">Pendants</a>
-      <a class="nav-item nav-link" href="#">Men's Jewelry</a>
-      <a class="nav-item nav-link" href="#">Religious Jewelry</a>
-      <a class="nav-item nav-link" href="#">Quick Shops</a>
+      <a class="nav-item nav-link active" href="#Home">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="#Earrings">Earrings</a>
+      <a class="nav-item nav-link" href="#Pendants">Pendants</a>
+      <a class="nav-item nav-link" href="#Mens">Men's Jewelry</a>
+      <a class="nav-item nav-link" href="#Religious">Religious Jewelry</a>
+      <a class="nav-item nav-link" href="#Quick">Quick Shops</a>
    
     </div>
   </div>
@@ -71,12 +81,27 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img class="d-block w-100" src="img/carousel.png" alt="First slide">
+      <div class="absolute-div">
+        <div class="carousel-content">
+          <h4>Custom<br><span>Handmade</span><br>Pieces</h4>
+        </div>      
+      </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="img/carousel.png" alt="Second slide">
+      <div class="absolute-div">
+        <div class="carousel-content">
+          <h4>Custom<br><span>Handmade</span><br>Pieces</h4>
+        </div>      
+      </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="img/carousel.png" alt="Third slide">
+      <div class="absolute-div">
+        <div class="carousel-content">
+          <h4>Custom<br><span>Handmade</span><br>Pieces</h4>
+        </div>      
+      </div>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -88,15 +113,28 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+      <img src="img/quick-shops.png" class="col-md-3">
+      <div class="caption">
+          <h4>Quick Shops</h4>
+        </div>
       <img src="img/mens-jewelry.png" class="col-md-3">
+        <div class="caption">
+          <h4>Men's Jewelry</h4>
+        </div>
     </div>
     <div class="row">
       <img src="img/woman-full.png" class="col-md-12">
         <div class="caption">
-            <h4>Lorem ipsum dolor sit amet, consectetur</h4>
-                    </div>
+        
+        </div>
     </div>
   </div>
+
+  <footer>
+    <div class="footer-background">
+      <img src="img/footer-pattern.png">
+    </div>
+  </footer>
  
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>

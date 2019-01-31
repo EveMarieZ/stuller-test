@@ -2,12 +2,12 @@
 
 @font-face {
 	font-family: Archer Semibold;
-	src: url(Archer Semibold.otf);
+	src: url(archer-semibold.otf);
 }
 
 @font-face {
-	font-family: Franchise Free;
-	src: url(franchise-bold.ttf);
+	font-family: Franchise;
+	src: url(franchise-free-bold.otf);
 }
 
 @font-face {
@@ -18,19 +18,38 @@
 /* Header */
 
 header ul {
-	list-style-type: none;
+	list-style: none;
+	margin: 0;
+	padding: 1em;
+	display: inline;
 }
 
 header ul li img {
 	height: 50px;
 }
 
+.header-background img {
+	width: 100%;
+}
+
+#header-logo {
+
+}
+
 /* Navigation */
+
+.navbar {
+	padding: 2rem 1rem !important;
+}
 
 .navbar a {
 	color: #646566;
 	font-family: 'Intro', sans serif;
 	font-size: 14px;
+}
+
+.bg-light {
+	background-color: #fff !important;
 }
 
 /* Main */
@@ -40,6 +59,9 @@ header ul li img {
 	width: 100%;
 }
 
+.caption h4 {
+	font-family: 'Intro', sans-serif;
+}
 /* Carousel */
 
 .carousel-indicators li {
@@ -72,6 +94,40 @@ header ul li img {
     color: #fff;
     text-align: right;
     -webkit-font-smoothing: antialiased; 
+}
+
+.carousel-content {
+    position: absolute;
+    z-index: 1;
+    display:table;
+    width:100%;
+    height:100%;
+	font-family: 'Intro', sans-serif;
+}
+
+.carousel-content h4 {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	color: #fff;
+	font-size: 2.8em;
+}
+
+.carousel-content span {
+	font-family: 'Archer Semibold', serif;
+}
+
+.absolute-div {
+	position: absolute;
+	top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+/* Footer */
+
+.footer-background img {
+	width: 100%;
 }
 
 /* Media Queries */
