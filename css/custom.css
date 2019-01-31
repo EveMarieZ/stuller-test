@@ -15,6 +15,12 @@
 	src: url(intro.otf);
 }
 
+/* Header */
+
+header ul {
+	list-style-type: none;
+}
+
 /* Navigation */
 
 .navbar a {
@@ -43,6 +49,25 @@
     border: 1px solid #fff;
     border-radius: 10px;
     margin: 10px;
+}
+
+ .caption {
+    width:100%;
+    bottom: .3rem;
+    position: absolute;
+}
+
+.thumbnail {
+    border: 0 none;
+    box-shadow: none;
+    margin:0;
+    padding:0;
+}
+
+.caption h4 {
+    color: #fff;
+    text-align: right;
+    -webkit-font-smoothing: antialiased; 
 }
 
 /* Media Queries */
