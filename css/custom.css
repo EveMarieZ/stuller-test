@@ -21,6 +21,10 @@ header ul {
 	list-style-type: none;
 }
 
+header ul li img {
+	height: 50px;
+}
+
 /* Navigation */
 
 .navbar a {
