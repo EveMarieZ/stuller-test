@@ -17,6 +17,10 @@
 
 /* Header */
 
+header {
+	background: url("header-pattern.png") no-repeat fixed;
+}
+
 header ul {
 	list-style: none;
 	margin: 0;
