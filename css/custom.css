@@ -17,15 +17,9 @@
 
 /* Header */
 
-header ul {
-	list-style: none;
-	margin: 0;
-	padding: 1em;
-	display: inline;
-}
-
-header ul li img {
-	height: 50px;
+.container-fluid {
+	background-image: url(header-pattern.png);
+	border-top: 5px solid #3392d2;
 }
 
 #header-container {
@@ -33,12 +27,15 @@ header ul li img {
 	width: 100%;
 }
 
-
-
-#header-logo {
-
+.list-inline-item img {
+	height: 50px;
+	width: auto;
 }
 
+header ul li img {
+	height: 50px !important;
+
+}
 /* Navigation */
 
 .navbar {
@@ -117,7 +114,7 @@ header ul li img {
 }
 
 .stacked-tiles {
-	
+
 }
 
 /* Footer */
