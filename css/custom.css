@@ -85,7 +85,7 @@ header ul li img {
     bottom: 0;
 }
 
-.carousel-content, .tile-content {
+.carousel-content {
     position: absolute;
     z-index: 1;
     display:table;
@@ -113,12 +113,29 @@ header ul li img {
 	color: #fff;
 }
 
-.stacked-tiles {
-
+.card-img-overlay p {
+	font-family: 'Arial', sans-serif !important;
+	color: #fff;
 }
 
+.card-img-overlay h4 {
+	font-family: 'Intro', sans-serif !important;
+	font-size: 1.2rem;
+	color: #fff;
+}
+
+.btn, .btn-primary {
+	background-color: #b8a580 !important;
+	padding-left: 30px;
+	padding-right: 30px
+	border: none !important;
+}
+
+
 /* Footer */
+
 .footer-background {
+	clear: both;
 	background-image: url(footer-pattern.png);
 	width: 100%;
 	margin-top: 20px;
