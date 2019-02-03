@@ -18,24 +18,19 @@
 /* Header */
 
 .container-fluid {
-	background-image: url(header-pattern.png);
 	border-top: 5px solid #3392d2;
 }
 
 #header-container {
-	background-image: url(header-pattern.png);
 	width: 100%;
+	padding-top: 50px
 }
 
 .list-inline-item img {
-	height: 50px;
-	width: auto;
+	height: 40px !important;
+    width: 40px !important;
 }
 
-header ul li img {
-	height: 50px !important;
-
-}
 /* Navigation */
 
 .navbar {
