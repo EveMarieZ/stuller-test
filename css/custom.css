@@ -35,6 +35,7 @@
 
 .navbar {
 	padding: 2rem 1rem !important;
+	width: 100%;
 }
 
 .navbar a {
@@ -101,11 +102,8 @@
 	font-family: 'Archer Semibold', serif;
 }
 
-.tile-content h4 {
-	display: table-cell;
-	vertical-align: middle;
-	text-align: center;
-	color: #fff;
+.card {
+	border-radius: none !important;
 }
 
 .card-img-overlay p {
@@ -121,9 +119,8 @@
 
 .btn, .btn-primary {
 	background-color: #b8a580 !important;
-	padding-left: 30px;
-	padding-right: 30px
-	border: none !important;
+	border-color: #b8a580 !important;
+	border-radius: 0;
 }
 
 
