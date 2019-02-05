@@ -17,7 +17,7 @@
 
 /* Header */
 
-.container-fluid {
+header .container-fluid {
 	border-top: 5px solid #3392d2;
 }
 
@@ -106,6 +106,10 @@
 	border-radius: none !important;
 }
 
+.card-img-overlay {
+	padding: 0 !important;
+}
+
 .card-img-overlay p {
 	font-family: 'Arial', sans-serif !important;
 	color: #fff;
@@ -117,21 +121,26 @@
 	color: #fff;
 }
 
+.card-img-overlay a {
+	text-decoration: none !important;
+}
+
 .btn, .btn-primary {
 	background-color: #b8a580 !important;
 	border-color: #b8a580 !important;
 	border-radius: 0;
+	font-family: 'Intro', sans-serif;
+	font-size: 1rem;
 }
 
 
 /* Footer */
 
-.footer-background {
-	clear: both;
-	background-image: url(footer-pattern.png);
-	width: 100%;
+#footer-container {
 	margin-top: 20px;
-	padding: 0;
+}
+
+.footer-logo {
 }
 
 /* Media Queries */
