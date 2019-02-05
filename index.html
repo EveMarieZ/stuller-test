@@ -22,7 +22,7 @@
   <![endif]-->
 
 <header>
-  <div class="container-fluid">
+  <div class="container-fluid jumbotron">
   <div class="container" id="header-container">
     <div class="row">
       <div class="col-lg-3">
@@ -44,20 +44,23 @@
       <div class="col-lg-6 d-flex justify-content-center">
         <img src="img/logo-dark.png" class="col-lg-6">
       </div>
-      <div class="col-lg-3 d-flex justify-content-end">
-        <i class="fas fa-search"></i>
+      <div class="col-lg-3 d-flex justify-content-end align-items-start">
+    <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="
+    border: none;
+">
+    <button class="btn btn-secondary my-2 my-sm-0" type="submit">
+<i class="fas fa-search"></i>
+</button>
+  </form>
       </div>
     </div>
-  </div>
-</div>
-</header>
-
 <nav class="navbar navbar-expand-md navbar-light bg-light">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav d-flex justify-content-center">
+    <div class="navbar-nav d-flex justify-content-between">
       <a class="nav-item nav-link active" href="#Home">Home <span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link" href="#Earrings">Earrings</a>
       <a class="nav-item nav-link" href="#Pendants">Pendants</a>
@@ -67,6 +70,11 @@
     </div>
   </div>
 </nav>
+  </div>
+</div>
+</header>
+
+
 
   <div class="container">
     <div class="row">
@@ -85,7 +93,7 @@
             </div>      
           </div>
         </div>
-      <div class="carousel-item">
+      <div class="carousel-item active carousel-item-left">
         <img class="d-block w-100" src="img/carousel.png" alt="Second slide">
         <div class="absolute-div">
           <div class="carousel-content">
@@ -93,7 +101,7 @@
           </div>      
         </div>
       </div>
-      <div class="carousel-item active">
+      <div class="carousel-item carousel-item-next carousel-item-left">
         <img class="d-block w-100" src="img/carousel.png" alt="Third slide">
         <div class="absolute-div">
           <div class="carousel-content">
@@ -159,33 +167,33 @@
 
 
 <footer>
-  <div class="container-fluid" id="footer-container">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-3">
-        <ul class="list-inline">
-          <li class="list-inline-item">
-            <img src="img/facebook-white.svg" alt="Facebook icon link">
-          </li>
-          <li class="list-inline-item">
-            <img src="img/twitter-white.svg" alt="Twitter icon link">
-          </li>
-          <li class="list-inline-item">
-            <img src="img/youtube-white.svg" alt="YouTube icon link">
-          </li>
-          <li class="list-inline-item">
-            <img src="img/rss-white.svg" alt="RSS feed link">        
-          </li>
-        </ul>
-      </div>
-      <div class="col-lg-6 d-flex justify-content-center">
-        <img src="img/logo-light.png" class="col-md-6" id="header-logo">
-      </div>
-      <div class="col-lg-3 d-flex justify-content-end">
-        <button type="button" class="btn btn-primary">Get in touch</button>
+  <div class="container-fluid jumbotron" id="footer-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <ul class="list-inline">
+            <li class="list-inline-item">
+              <img src="img/facebook-white.svg" alt="Facebook icon link">
+            </li>
+            <li class="list-inline-item">
+              <img src="img/twitter-white.svg" alt="Twitter icon link">
+            </li>
+            <li class="list-inline-item">
+              <img src="img/youtube-white.svg" alt="YouTube icon link">
+            </li>
+            <li class="list-inline-item">
+              <img src="img/rss-white.svg" alt="RSS feed link">        
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-6 d-flex justify-content-center">
+          <img src="img/logo-light.png" class="col-md-6" id="header-logo">
+        </div>
+        <div class="col-lg-3 d-flex justify-content-end">
+          <button type="button" class="btn btn-primary">Get in touch</button>
+        </div>
       </div>
     </div>
-  </div>
   </div>
 </footer>
  
@@ -204,9 +212,4 @@
 
 
 
-
-
-
-</body>
-
-</html>
+</body></html>

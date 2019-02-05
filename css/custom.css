@@ -17,8 +17,20 @@
 
 /* Header */
 
+.container-fluid {
+	padding: 0;
+}
+
 header .container-fluid {
 	border-top: 5px solid #3392d2;
+}
+
+.jumbotron {
+	background-image: url(../img/header-pattern.png);
+    background-size: cover;
+    height: 300px;
+    background-color: transparent;
+    margin-bottom: 0 !important;
 }
 
 #header-container {
@@ -36,10 +48,21 @@ header .container-fluid {
 	height: auto;
 }
 
+.btn-secondary {
+	border:none !important;
+	color: #000;
+	background-color: transparent;
+}
+
 /* Navigation */
 
 .navbar {
-	padding: 2rem 1rem !important;
+	padding: 0;
+	margin-top: 50px;
+}
+
+.navbar-nav {
+	width: 100%;
 }
 
 .navbar a {
@@ -49,7 +72,7 @@ header .container-fluid {
 }
 
 .bg-light {
-	background-color: #fff !important;
+	background-color: transparent !important;
 }
 
 /* Main */
@@ -110,6 +133,10 @@ header .container-fluid {
 	border-radius: none !important;
 }
 
+.card-columns .card {
+    margin-bottom: .0 !important;
+    }
+
 .card-img-overlay {
 	padding: 0 !important;
 }
@@ -129,7 +156,7 @@ header .container-fluid {
 	text-decoration: none !important;
 }
 
-.btn, .btn-primary {
+.btn-primary {
 	background-color: #b8a580 !important;
 	border-color: #b8a580 !important;
 	border-radius: 0;
@@ -145,8 +172,7 @@ header .container-fluid {
 	background-image: url(footer-pattern.png);
 }
 
-.footer-logo {
-}
+
 
 /* Media Queries */
 
