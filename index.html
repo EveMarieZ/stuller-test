@@ -46,12 +46,11 @@
       </div>
       <div class="col-lg-3 d-flex justify-content-end align-items-start">
     <form class="form-inline">
-    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="
-    border: none;
-">
-    <button class="btn btn-secondary my-2 my-sm-0" type="submit">
+    <input class="form-control mr-sm-2 collapse" type="search" placeholder="Search" aria-label="Search" id="search-field" style="border: none;">
+    <button class="btn btn-secondary my-2 my-sm-0 collapsed" type="submit" data-toggle="collapse" data-target="#search-field" aria-expanded="false">
 <i class="fas fa-search"></i>
 </button>
+
   </form>
       </div>
     </div>
@@ -80,12 +79,12 @@
     <div class="row">
       <div id="carouselExampleIndicators" class="carousel slide .d-none .d-sm-block col-s-12 col-lg-6 m-0 pointer-event" data-ride="carousel">
         <ol class="carousel-indicators" style="z-index:1 !important">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class=""></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2" class=""></li>
         </ol>
       <div class="carousel-inner">
-        <div class="carousel-item active">
+        <div class="carousel-item active carousel-item-left">
           <img class="d-block w-100" src="img/carousel.png" alt="First slide">
           <div class="absolute-div">
             <div class="carousel-content">
@@ -93,7 +92,7 @@
             </div>      
           </div>
         </div>
-      <div class="carousel-item">
+      <div class="carousel-item carousel-item-next carousel-item-left">
         <img class="d-block w-100" src="img/carousel.png" alt="Second slide">
         <div class="absolute-div">
           <div class="carousel-content">
@@ -171,7 +170,9 @@
     <div class="container">
       <div class="row d-flex align-items-center">
         <div class="col-lg-3">
-          <ul class="list-inline">
+          <ul class="list-inline d-none d-md-block" style="
+    margin-bottom: 0;
+">
             <li class="list-inline-item">
               <img src="img/facebook-white.svg" alt="Facebook icon link">
             </li>
@@ -200,6 +201,7 @@
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+
   <script src="js/bootstrap.min.js"></script>
  
 
@@ -209,6 +211,7 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async="" defer=""></script>
+
 
 
 

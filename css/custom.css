@@ -50,8 +50,14 @@ header .container-fluid {
 
 .btn-secondary {
 	border:none !important;
-	color: #000;
+	color: #646566;
 	background-color: transparent;
+}
+
+.btn-secondary:hover {
+	border: none !important;
+	color: #646566;
+	background-color: transparent
 }
 
 /* Navigation */
