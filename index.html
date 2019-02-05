@@ -1,7 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en">
-
-<head>
+<html class="no-js" lang="en"><head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Magic Stone Luxury Jewelry</title>
@@ -25,11 +23,10 @@
 
 <header>
   <div class="container-fluid">
-  </div>
   <div class="container" id="header-container">
     <div class="row">
       <div class="col-lg-3">
-        <ul class="list-inline">
+        <ul class="list-inline d-none d-md-block">
           <li class="list-inline-item">
             <img src="img/facebook.svg" alt="Facebook icon link">
           </li>
@@ -44,22 +41,23 @@
           </li>
         </ul>
       </div>
-      <div class="col-lg-6 d-flex justify-content-center">
-        <img src="img/logo-dark.png" class="col-lg-6" id="header-logo">
+      <div class="d-flex col-lg-6 justify-content-center">
+        <img src="img/logo-dark.png" class="logo-img">
       </div>
       <div class="col-lg-3 d-flex justify-content-end">
         <i class="fas fa-search"></i>
       </div>
     </div>
   </div>
+</div>
 </header>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between">
+<nav class="navbar navbar-expand-md navbar-light bg-light">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
+    <div class="navbar-nav d-flex justify-content-between">
       <a class="nav-item nav-link active" href="#Home">Home <span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link" href="#Earrings">Earrings</a>
       <a class="nav-item nav-link" href="#Pendants">Pendants</a>
@@ -72,11 +70,11 @@
 
   <div class="container">
     <div class="row">
-      <div id="carouselExampleIndicators" class="carousel slide col-s-12 col-lg-6 m-0" data-ride="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide .d-none .d-sm-block col-lg-6 m-0 pointer-event" data-ride="carousel">
         <ol class="carousel-indicators" style="z-index:1 !important">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2" class=""></li>
         </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -114,8 +112,8 @@
   </a>
 </div>
 
-<div class="card-column">
-  <div class="card border-0 text-center text-white mr-3 mb-3">
+<div class="card-column col-md-3">
+  <div class="card border-0 text-center text-white">
     <img src="img/quick-shops.png" alt="Diamond" class="card-img rounded-0">
       <div class="card-img-overlay d-flex align-items-end">
         <div class="w-100">
@@ -124,7 +122,7 @@
       </div>
     </div>
 
-<div class="card border-0 text-center text-white mr-3">
+<div class="card border-0 text-center text-white">
 <img src="img/wedding-bands.png" alt="Wedding Band" class="card-img rounded-0">
   <div class="card-img-overlay d-flex align-items-end">
     <div class="w-100">
@@ -134,7 +132,7 @@
 </div>
 </div>
 
-  <div class="card border-0 text-center text-white">
+  <div class="card col-md-3 border-0 text-center text-white">
   <img src="img/mens-jewelry.png" alt="Men's Jewelry" class="card-img rounded-0">
     <div class="card-img-overlay d-flex align-items-end">
       <div class="w-100">
@@ -143,11 +141,11 @@
     </div>
   </div>
 
-<div class="card border-0 text-left text-white">
+<div class="card border-0 text-left text-white mt-3 col-md-12">
 <img src="img/woman-full.png" alt="Woman smiling" class="card-img rounded-0">
   <div class="card-img-overlay d-flex justify-content-center align-items-center">
     <div class="w-100"></div>
-    <div class="w-100">
+    <div class="w-100 mr-5">
       <h4>Why Magic Stone?</h4>
       <p>Magic Stone carries a large selection of Diamond Engagement Rings, Diamond Earrings, Pendants, Bracelets, Pearls and Fashion Jewelry. If you are interested in Beautiful Jewelry which will always make an outstanding presentation in any setting, Magic Stone is the destination for you.</p>
       <p>We are staffed by knowledgeable sales people and Graduates of the Gemological Institute of America. We also understand the importance of service to our customers and our expert jewelers do in-store manufacturing, sizing, and repairs.</p>
@@ -199,7 +197,10 @@
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
   </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+  <script src="https://www.google-analytics.com/analytics.js" async="" defer=""></script>
+
+
+
 </body>
 
 </html>

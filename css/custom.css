@@ -31,11 +31,15 @@ header .container-fluid {
     width: 40px !important;
 }
 
+.logo-image {
+	width: 100%
+	height: auto;
+}
+
 /* Navigation */
 
 .navbar {
 	padding: 2rem 1rem !important;
-	width: 100%;
 }
 
 .navbar a {
