@@ -142,6 +142,7 @@ header .container-fluid {
 
 #footer-container {
 	margin-top: 20px;
+	background-image: url(footer-pattern.png);
 }
 
 .footer-logo {
