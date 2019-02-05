@@ -2,18 +2,19 @@
 
 @font-face {
 	font-family: Archer Semibold;
-	src: url(archer-semibold.otf);
+	src: url(../fonts/archer-semibold.otf) format("opentype");
 }
 
 @font-face {
 	font-family: Franchise;
-	src: url(franchise-free-bold.otf);
+	src: url(../fonts/franchise-free-bold.otf) format(opentype);
 }
 
 @font-face {
 	font-family: Intro;
-	src: url(intro.otf);
+	src: url(../fonts/intro.otf) format(opentype);
 }
+
 
 /* Header */
 
@@ -23,14 +24,9 @@
 
 header .container-fluid {
 	border-top: 5px solid #3392d2;
-}
-
-.jumbotron {
-	background-image: url(../img/header-pattern.png);
-    background-size: cover;
-    height: 300px;
-    background-color: transparent;
-    margin-bottom: 0 !important;
+	background-image: url(../img/header-pattern-2.png);
+	background-size:cover;
+	margin-bottom: 20px;
 }
 
 #header-container {
@@ -75,6 +71,11 @@ header .container-fluid {
 	color: #646566;
 	font-family: 'Intro', sans serif;
 	font-size: 14px;
+}
+
+.navbar-expand-md, .navbar-nav, .nav-link {
+	padding-right: 0;
+	padding-left: 0;
 }
 
 .bg-light {
@@ -133,6 +134,7 @@ header .container-fluid {
 
 .carousel-content span {
 	font-family: 'Archer Semibold', serif;
+	text-transform: uppercase;
 }
 
 .card {
@@ -165,9 +167,11 @@ header .container-fluid {
 .btn-primary {
 	background-color: #b8a580 !important;
 	border-color: #b8a580 !important;
-	border-radius: 0;
+	border-radius: 1;
 	font-family: 'Intro', sans-serif;
-	font-size: 1rem;
+	font-size: .8rem;
+	padding-right:30px;
+	padding-left:30px;
 }
 
 
@@ -175,7 +179,11 @@ header .container-fluid {
 
 #footer-container {
 	margin-top: 20px;
+}
+
+footer .container-fluid {
 	background-image: url(../img/footer-pattern.png);
+	height:200px;
 }
 
 
