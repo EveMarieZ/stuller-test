@@ -89,9 +89,6 @@ header .container-fluid {
 	width: 100%;
 }
 
-.caption h4 {
-	font-family: 'Intro', sans-serif;
-}
 /* Carousel */
 
 .carousel-indicators li {
@@ -124,7 +121,7 @@ header .container-fluid {
 	font-family: 'Intro', sans-serif;
 }
 
-.carousel-content h4 {
+.carousel-content h3 {
 	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
@@ -186,9 +183,27 @@ footer .container-fluid {
 	height:200px;
 }
 
+ 
+
 
 
 /* Media Queries */
+
+@media only screen and (max-width: 992px) {
+
+.list-inline-item img {
+		height: 30px !important;
+		width: auto !important;
+		margin-right: 0 !important;
+	}
+p {
+	font-size: smaller !important;
+}
+
+h4 {
+	font-size: x-large !important;
+}
+}
 
 html {
   font-size: 1rem;
