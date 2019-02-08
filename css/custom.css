@@ -102,6 +102,7 @@ background-color: #fff;
   color: #93a2ad;
 }
 
+
 }
 /* Navigation */
 
@@ -250,6 +251,10 @@ footer .container-fluid {
 
 @media (max-width: 600px){
 
+p {
+	font-size: .3rem !important;
+}
+
 h3 {
 	font-size: .5rem;
 }
@@ -264,6 +269,7 @@ h3 {
 		width: auto !important;
 		margin-right: 0 !important;
 	}
+	
 }
 
 @media (max-width:992px) {
