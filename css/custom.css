@@ -63,8 +63,7 @@ header .container-fluid {
   padding-left: 55px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
-  border-radius: 5px;
-  color: #fff;
+  border-radius: 5px; 
  
   -webkit-transition: width .55s ease;
   -moz-transition: width .55s ease;
@@ -84,11 +83,13 @@ header .container-fluid {
 
 .search-container input#search:focus, .search-container input#search:active{
   outline:none;
-  width: 300px;
+  width: 200px;
 }
  
 .search-container:hover input#search{
-width: 300px;
+width: 200px;
+background-color: #fff;
+
 }
  
 .search-container:hover .icon{
@@ -210,6 +211,10 @@ width: 300px;
 	padding-left:30px;
 }
 
+#mobile-container {
+	background-color: #000;
+	color: #fff;
+}
 
 /* Footer */
 
@@ -228,40 +233,47 @@ footer .container-fluid {
 
 /* Media Queries */
 
-@media only screen and (max-width: 992px) {
+@media (max-width: 600px){
 
-.list-inline-item img {
+h3 {
+	font-size: .5rem;
+}
+}
+
+@media (max-width:768px){
+  h3 {
+  	font-size: .8rem;
+  }
+  .list-inline-item img {
 		height: 28px !important;
 		width: auto !important;
 		margin-right: 0 !important;
 	}
-p {
-	font-size: smaller !important;
 }
 
-h4 {
-	font-size: x-large !important;
-}
-}
-
-html {
-  font-size: 1rem;
-}
-
-@include media-breakpoint-up(sm) {
-  html {
-    font-size: 1.2rem;
+@media (max-width:992px) {
+  p {
+    font-size: .9rem;
   }
+
+  h3 {
+  	font-size: .8rem;
+  }
+
+  h4 {
+  	font-size: 2rem;
+  }
+	
+  .list-inline-item img {
+		height: 28px !important;
+		width: auto !important;
+		margin-right: 0 !important;
+	}
+  button {
+	font-size: .6rem;
+	}
 }
 
-@include media-breakpoint-up(md) {
-  html {
-    font-size: 1.4rem;
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  html {
-    font-size: 1.6rem;
-  }
+@media (max-width:1200px) {
+  
 }
