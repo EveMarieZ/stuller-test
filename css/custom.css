@@ -15,6 +15,11 @@
 	src: url(../fonts/intro.otf) format(opentype);
 }
 
+/*Global*/
+
+h4 {
+	font-family: 'Intro', sans-serif;
+}
 
 /* Header */
 
@@ -217,6 +222,18 @@ background-color: #fff;
 	text-decoration: none !important;
 }
 
+.icon-cards{
+	background-color: #000;
+}
+
+.icon-card h4 {
+	font-size: 1rem !important:;
+}
+
+.mobile-icon {
+	height: 50px;
+}
+
 .btn-primary {
 	background-color: #b8a580 !important;
 	border-color: #b8a580 !important;
@@ -252,47 +269,56 @@ footer .container-fluid {
 @media (max-width: 600px){
 
 p {
-	font-size: .3rem !important;
+	font-size: .3rem;
 }
 
 h3 {
-	font-size: .5rem;
+	font-size: .4rem;
 }
 }
 
-@media (max-width:768px){
-  h3 {
-  	font-size: .8rem;
-  }
-  .list-inline-item img {
-		height: 28px !important;
-		width: auto !important;
-		margin-right: 0 !important;
-	}
+@media (max-width: 768px){
+
+p {
+	font-size: .5rem !important;
+}
+
+h3 {
+	font-size: .8rem;
+}
+
+.list-inline-item img {
+	height: 28px !important;
+	width: auto !important;
+	margin-right: 0 !important;
+}
 	
 }
 
-@media (max-width:992px) {
-  p {
-    font-size: .9rem;
-  }
+@media (max-width: 992px) {
 
-  h3 {
-  	font-size: .8rem;
-  }
+p {
+	font-size: .9rem;
+}
 
-  h4 {
-  	font-size: 2rem;
-  }
-	
-  .list-inline-item img {
-		height: 28px !important;
-		width: auto !important;
-		margin-right: 0 !important;
-	}
-  button {
+h3 {
+	font-size: .8rem;
+}
+
+h4 {
+	font-size: 2rem;
+}
+
+.list-inline-item img {
+	height: 28px !important;
+	width: auto !important;
+	margin-right: 0 !important;
+}
+
+button {
 	font-size: .6rem;
-	}
+}
+
 }
 
 @media (max-width:1200px) {
