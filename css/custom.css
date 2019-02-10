@@ -270,10 +270,13 @@ h3 {
 }
 
 .icon {
-	position:unset;
-	right:unset;
-	top:unset;
+	padding-right: 1rem;
 }
+
+.icon i {
+	font-size: 1.5rem
+}
+
 }
 
 
@@ -313,6 +316,3 @@ button {
 
 }
 
-@media (max-width:1200px) {
-  
-}
