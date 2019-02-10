@@ -264,9 +264,6 @@ footer .container-fluid {
 
 @media (max-width: 600px){
 
-p {
-	font-size: .3rem;
-}
 
 h3 {
 	font-size: .4rem;
@@ -282,9 +279,6 @@ h3 {
 
 @media (max-width: 768px){
 
-p {
-	font-size: .5rem !important;
-}
 
 h3 {
 	font-size: .8rem;
@@ -300,9 +294,7 @@ h3 {
 
 @media (max-width: 992px) {
 
-p {
-	font-size: .7rem;
-}
+
 
 h3 {
 	font-size: .8rem;
