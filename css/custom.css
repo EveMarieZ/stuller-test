@@ -1,11 +1,6 @@
 /* Custom Styles */
 
 @font-face {
-	font-family: Archer Semibold;
-	src: url(../fonts/archer-semibold.otf);
-}
-
-@font-face {
 	font-family: Franchise;
 	src: url(../fonts/franchise-free-bold.otf);
 }
@@ -173,7 +168,7 @@ header .container-fluid {
 }
 
 .carousel-content span {
-	font-family: 'Archer Semibold', serif;
+	font-family: 'Sanchez', serif;
 	text-transform: uppercase;
 }
 
