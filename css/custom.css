@@ -2,17 +2,17 @@
 
 @font-face {
 	font-family: Archer Semibold;
-	src: url(../fonts/archer-semibold.otf) format(opentype);
+	src: url(../fonts/archer-semibold.otf);
 }
 
 @font-face {
 	font-family: Franchise;
-	src: url(../fonts/franchise-free-bold.otf) format(opentype);
+	src: url(../fonts/franchise-free-bold.otf);
 }
 
 @font-face {
 	font-family: Intro;
-	src: url(../fonts/intro.otf) format(opentype);
+	src: url(../fonts/intro.otf);
 }
 
 /*Global*/
