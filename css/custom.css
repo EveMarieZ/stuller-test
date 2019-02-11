@@ -65,12 +65,12 @@ header .container-fluid {
 .navbar a {
 	color: #646566;
 	font-family: 'Intro', sans serif;
-	font-size: 14px;
 }
 
 .navbar-expand-md, .navbar-nav, .nav-link {
 	padding-right: 0;
 	padding-left: 0;
+	color: #6e6f70 !important;
 }
 
 .bg-light {
@@ -91,6 +91,10 @@ header .container-fluid {
     line-height: 2.375rem;
     text-align: center;
     pointer-events: none;
+}
+
+.icon i {
+	font-size: larger;
 }
 
 
@@ -284,6 +288,10 @@ h3 {
 .navbar-expand-md .navbar-nav .nav-link {
 	padding-right: 0 !important;
 	padding-left: 0 !important;
+}
+
+.navbar a {
+	font-size: smaller;
 }
 
 .search-container input#search{
